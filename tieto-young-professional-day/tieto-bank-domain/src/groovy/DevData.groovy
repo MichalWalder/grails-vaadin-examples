@@ -40,5 +40,29 @@ class DevData {
 		p1.from=a2
 		p1.to=a3
 		p1.save(saveParams)
+
+		Payment p2= new Payment()
+		p2.amount=100000
+		p2.from=a1
+		p2.to=a2
+		p2.save(saveParams)
+
+		Payment p3= new Payment()
+		p3.amount=5000
+		p3.from=a1
+		p3.to=a3
+		p3.save(saveParams)
+
+		Payment p4= new Payment()
+		p4.amount=49
+		p4.from=a1
+		p4.to=a3
+		p4.save(saveParams)
+
+		Payment p5= new Payment()
+		p5.amount=1
+		p5.from=a1
+		p5.to=a3
+		p5.save(saveParams)
 	}
 }
